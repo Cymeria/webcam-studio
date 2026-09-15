@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# PyInstaller
+*.spec
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Application
+recordings/
+*.avi
+*.mp4
+
+# Temporary
+*.tmp
+*.bak
+
+# Project-specific
+.freebuff/
+mimo.exe
+req.bat
