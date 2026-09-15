@@ -5,19 +5,9 @@ Windows için modern, premium arayüzlü webcam uygulaması. İki farklı sürü
 <br>
 
 <p align="center">
-  <img src="screenshots/220.png" width="45%" alt="Webcam App - Kamera Görüntüsü" />
+  <img src="screenshots/webcam_app_preview.png" width="48%" alt="Webcam App Arayüzü" />
   &nbsp;&nbsp;
-  <img src="screenshots/225.png" width="45%" alt="Webcam App - Efektli Görüntü" />
-</p>
-
-<p align="center">
-  <img src="screenshots/230.png" width="45%" alt="Webcam App Pro - Ana Ekran" />
-  &nbsp;&nbsp;
-  <img src="screenshots/235.png" width="45%" alt="Webcam App Pro - Efektler" />
-</p>
-
-<p align="center">
-  <img src="screenshots/240.png" width="45%" alt="Webcam App Pro - Çerçeve Seçimi" />
+  <img src="screenshots/webcam_app_pro_preview.png" width="48%" alt="Webcam App Pro Arayüzü" />
 </p>
 
 ---
@@ -49,14 +39,14 @@ Windows için modern, premium arayüzlü webcam uygulaması. İki farklı sürü
 Uygulama başlatıldığında kameralar otomatik algılanır. Sol panelden kamera seçimi, çözünürlük ayarı ve kontroller yapılabilir.
 
 <p align="center">
-  <img src="screenshots/220.png" width="70%" alt="Webcam App Arayüzü" />
+  <img src="screenshots/webcam_app_preview.png" width="70%" alt="Webcam App Arayüzü" />
 </p>
 
 ### Webcam App Pro
 Gelişmiş özellikler: efektler, çerçeveler, hareket algılama, zamanlı kayıt ve sanal kamera desteği.
 
 <p align="center">
-  <img src="screenshots/230.png" width="70%" alt="Webcam App Pro Arayüzü" />
+  <img src="screenshots/webcam_app_pro_preview.png" width="70%" alt="Webcam App Pro Arayüzü" />
 </p>
 
 ---
@@ -142,11 +132,8 @@ webcam-studio/
 ├── start.bat                     # Hızlı başlatma scripti
 ├── build.bat                     # EXE derleme scripti
 ├── screenshots/                  # Ekran görüntüleri
-│   ├── 220.png
-│   ├── 225.png
-│   ├── 230.png
-│   ├── 235.png
-│   └── 240.png
+│   ├── webcam_app_preview.png
+│   └── webcam_app_pro_preview.png
 ├── filters/                      # PNG çerçeve dosyaları
 │   ├── daire_cerceve.png
 │   ├── kalp_cerceve.png
@@ -155,7 +142,7 @@ webcam-studio/
 │   ├── sulu_cerceve.png
 │   ├── vip_cerceve.png
 │   └── README.txt
-├── screenshots/ (uygulama)       # Ekran görüntüleri (otomatik oluşturulur)
+├── take_screenshots.py           # Ekran görüntüsü alma scripti
 └── recordings/                   # Video kayıtları (otomatik oluşturulur)
 ```
 
